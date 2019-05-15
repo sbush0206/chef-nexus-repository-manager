@@ -4,8 +4,8 @@
 #
 # Copyright:: Copyright (c) 2017-present Sonatype, Inc. Apache License, Version 2.0.
 
-user 'nexus' do
-  uid '200'
+user 'nexapp1q' do
+  uid '30324'
   comment 'Nexus Repository Manager user'
   system true
   shell '/bin/false'
@@ -13,7 +13,7 @@ user 'nexus' do
   action :create
 end
 
-group 'nexus' do
-  members 'nexus'
+group 'nexapp1q' do
+  members 'nexapp1q'
   action :create
 end
